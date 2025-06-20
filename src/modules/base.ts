@@ -21,8 +21,7 @@ export class Base {
       baseURL: this.config.baseURL,
       url: path,
       headers: {
-        'Content-Type': 'application/json',
-        'X-MEXC-APIKEY': this.config.apiKey
+        'Content-Type': 'application/json'
       }
     })
   }
